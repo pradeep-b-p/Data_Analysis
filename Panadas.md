@@ -120,8 +120,8 @@ can check using loc function (ndf.loc['Key1']
 4. ndf = pd.concat([df1, df2], axis=1) -> Adds/Appends the DataFrame one next to another
 5. ndf = pd.concat([df1, seriesdf], axis=1) -> merge series to df 
 6. A = pd.concat([df1, df2], join='outer', axis=1) -> Based on the index value it joins the 2 dataframes
-# Note it take the system generated index for Joining so its not a appropriate method to join if the order of both df are different
-# So if we have proper column as index value then we can use join function.
+* Note it take the system generated index for Joining so its not a appropriate method to join if the order of both df are different
+* So if we have proper column as index value then we can use join function.
 
 merge function
 1a. A = pd.merge(df1, df2, on='col1') -> Using pd function on = which column megring has to be performed.
