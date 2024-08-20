@@ -99,6 +99,8 @@ iloc function - Takes the number(column's number) as parameter
 
 2. df.iloc[0, 4] = 'new_value' -> Modifies the data
 
+apply function - Adding Custom column to data frame using apply function
+1. df[new_column] = df[reference_column].apply(lambda x: "result_if_true" if x condition else "result_if_false")
 
 GroupBy functions
 1. data.groupby(col) -> Groups the other columns w.r.t the mentioned column, Default method of grouping other column is summing.
